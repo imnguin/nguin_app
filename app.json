@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Bizlinks",
+    "slug": "Bizlinks",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/bizlinks.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/bizlinks.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F46138"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-secure-store"
+    ]
+  }
+}

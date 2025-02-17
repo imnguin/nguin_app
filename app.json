@@ -18,13 +18,20 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.nguyen188197.Bizlinks"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
       "expo-secure-store"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "f1457feb-c0b2-4484-ae8c-f1e8351a873e"
+      }
+    },
+    "owner": "nguyen188197"
   }
 }

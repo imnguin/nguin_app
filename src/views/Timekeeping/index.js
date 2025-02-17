@@ -52,11 +52,11 @@ const Timekeeping = ({ navigation }) => {
       <Header title='Chấm công' />
       <View style={styles.card}>
         <View style={styles.cardContent}>
-          <Image
-            source={require('../../../assets/timekeeping1.png')}
+          {/* <Image
+            source={require('../../../assets/time_keeping.png')}
             resizeMode='contain'
             style={styles.cardContentImage}
-          />
+          /> */}
           <View style={styles.cardContentTimerRow}>
             <Text style={styles.cardContentTimerText}>Còn lại </Text>
             <Text style={styles.cardContentTimerHighlight}>{formatTime(timeLeft)}</Text>
